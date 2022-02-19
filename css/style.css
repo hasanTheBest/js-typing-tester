@@ -1,0 +1,26 @@
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+#test-text {
+  margin-bottom: 2rem;
+}
+
+#input-text {
+  width: 100%;
+  height: 200px;
+  overflow-y: auto;
+  border: 2px solid;
+  border-radius: 3px;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#start {
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+}

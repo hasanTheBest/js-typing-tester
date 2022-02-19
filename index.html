@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Typing Tester</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="test-text">
+        <b>Note:</b> Manually firing an event does not generate the default
+        action associated with that event. For example, manually firing a key
+        event does not cause that letter to appear in a focused text input.
+
+        <!-- <p>
+          In the case of UI events, this is important for security reasons, as
+          it prevents scripts from simulating user actions that interact with
+          the browser itself.
+        </p> -->
+
+        <!-- <p>In some GTK-based environments, auto-repeat dispatches a native key-up event automatically during auto-repeat, and there's no way for Gecko to know the difference between a repeated series of keypresses and an auto-repeat. On those platforms, then, an auto-repeat key will generate the following sequence of events:</p> -->
+      </div>
+
+      <textarea id="input-text"> </textarea>
+
+      <button id="start">Start</button>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
